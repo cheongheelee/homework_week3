@@ -26,7 +26,3 @@ for song in songs:
         }
         db.top200.insert_one(doc)
         rank += 1
-
-        # Selector
-        # body-content > div.newest-list > div > table > tbody > tr:nth-child(1) > td.info > a.title.ellipsis
-        # body-content > div.newest-list > div > table > tbody > tr:nth-child(1) > td.info > a.artist.ellipsis
